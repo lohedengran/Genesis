@@ -1,0 +1,122 @@
+.screen {
+}
+h4 {
+  font-family: "Muli", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.346154px;
+  color: #111111;
+}
+h5 {
+  font-family: "Muli", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+  opacity: 0.5;
+}
+h6 {
+  font-family: "Muli", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right {
+  display: flex;
+  justify-content: space-around;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  width: 1109px;
+}
+.first {
+  font-family: "Muli", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+  color: #111111;
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+}
+.second {
+  font-family: "Muli", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #111111;
+  grid-row: 3 / 4;
+  grid-column: 1 / 7;
+}
+.third {
+  font-family: "Muli", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #111111;
+  grid-row: 5 / 6;
+  grid-column: 1 / 7;
+}
+.fourth {
+  grid-row: 1 / 2;
+  grid-column: 9 / 10;
+}
+.fifth {
+  grid-row: 2 / 3;
+  grid-column: 9 / 10;
+}
+.sixth {
+  grid-row: 3 / 4;
+  grid-column: 9 / 10;
+}
+.seventh {
+  grid-row: 4 / 5;
+  grid-column: 9 / 10;
+}
+.eigth {
+  grid-row: 5 / 6;
+  grid-column: 9 / 10;
+}
+.nineth {
+  grid-row: 6 / 6;
+  grid-column: 9 / 10;
+}
+.tenth {
+  grid-row: 1 / 2;
+  grid-column: 10 / 12;
+}
+.eleventh {
+  grid-row: 2 / 3;
+  grid-column: 10 / 12;
+}
+.twelfth {
+  grid-row: 3 / 4;
+  grid-column: 10 / 12;
+}
+.thirteenth {
+  grid-row: 4 / 5;
+  grid-column: 10 / 12;
+}
+.fourteenth {
+  grid-row: 5 / 6;
+  grid-column: 10 / 12;
+}
+.fiftenth {
+  grid-row: 6 / 6;
+  grid-column: 10 / 12;
+}
